@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+h1{
+    color:red;
+}
+#selected{
+    color:#d442f4;
+}
+.green{
+    color:green;
+}
+div > p{
+    color:yellow;
+}
+div ~ p {
+    color:violet;
+}
+p[id] {
+    backgroundcolor:grey;
+}
+p:hover{
+    border:solid black;
+}
+p::first-letter {
+    font-size:3rem;
+}
+:root {
+    font-size: 16px;
+    font-family:Nunito Sans;
+}
